@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Click here to know more</title>
+    </head>
+    <style type="text/css">
+	body {
+            margin: 120px;
+            font-family: Arial;
+            padding-top: 50px;
+        }
+
+.split {
+  height: 30%;
+  width: 33.33%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+
+.top {
+	top : 50%;
+    left: 10px;
+    background-color: white;
+}
+
+.bottom {
+	top : 50%;
+    right: 10px;
+    background-color: white;
+}
+
+.bottommiddle {
+	top : 50%;
+    right: 200px;
+    left: 240px;
+    background-color: white;
+}
+
+.left {
+  left: 10px;
+  background-color: white;
+}
+
+.middle {
+	right: 33.33%;
+    background-color: white;
+}
+
+.right {
+  right: 10px;
+  background-color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 50px;
+  border-radius: 20%;
+}
+
+	h1 {
+	    font-size: 10px;
+	    text-align: center;
+        }
+    </style>
+    <body>
+        <h1><title>Click here to access your Anaplan models.</title></h1>
+        <!--<button id="clickIt" a href="https://www.google.com">Anaplan Models</button>-->
+
+        <div class="split middle">
+  	<div class="centered">
+    <img src="models.jpeg" alt="Avatar woman">
+    <h2>My Models</h2>
+    <!--<p>PQR</p>-->
+  </div>
+</div>
+
+        <div class="split left">
+          <div class="centered">
+            <img src="account.png" alt="Avatar woman">
+            <h2>My Account</h2>
+            <!--<p>Some text.</p>-->
+          </div>
+        </div>
+
+        <div class="split right">
+          <div class="centered">
+            <img src="icon.png" alt="Avatar man">
+            <h2>Bhavik</h2>
+            <!--<p>Some text here too.</p>-->
+          </div>
+        </div>
+
+
+
+
+         <a href="https://us1a.app.anaplan.com/launchpad/nonpublic/ViewMyProfile.action" target="_blank"><button id="clickIt" title="Navigate to your account">My Account</button></a>
+         <a href="https://us1a.app.anaplan.com/launchpad/nonpublic/tiles/ModelSelect.action" target="_blank"><button title="Your Models">My Models</button></a>
+         <a href="https://community.anaplan.com/" target="_blank"><button title="Know more about Anaplan">Community</button></a>
+         <a href="https://help.anaplan.com/anapedia/Content/Home.htm" target="_blank"><button title="Modeling Q&A?">Anapedia</button></a>
+         <a href="mailto:support@anaplan.com" target="_blank"><button title="Have questions?">Contact Support</button></a>
+
+
+
+    </body>
+    <script src="popup.js"></script>
+</html>
+
+
+
+
+<!-- https://us1a.app.anaplan.com/launchpad/nonpublic/tiles/ModelSelect.action -->

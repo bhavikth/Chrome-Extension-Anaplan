@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Anaplan Click It",
+    "description": "Trail Anaplan Chrome Extension.",
+    "version": "1.0",
+    "author": "Bhavik Thakkar",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "Trail extension to navigate around Anaplan"
+    },
+    "permissions": [
+        "activeTab"
+     ]
+}
