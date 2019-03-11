@@ -7,7 +7,9 @@
 	body {
             margin: 120px;
             font-family: Arial;
-            padding-top: 50px;
+            padding-top: 01px;
+            padding-bottom: 01px;
+            width: 50px;
         }
 
 .split {
@@ -15,10 +17,10 @@
   width: 33.33%;
   position: fixed;
   z-index: 1;
-  top: 0;
+  top: 10px;
   overflow-x: hidden;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
  }
 
 .top {
@@ -35,8 +37,8 @@
 
 .bottommiddle {
 	top : 50%;
-    right: 200px;
-    left: 240px;
+    right: 32%;
+
     background-color: white;
 }
 
@@ -65,7 +67,7 @@
 
 .centered img {
   width: 50px;
-  border-radius: 20%;
+  border-radius: 50%;
 }
 
 	h1 {
@@ -74,22 +76,76 @@
         }
     </style>
     <body>
-        <h1><title>Click here to access your Anaplan models.</title></h1>
+        <h1><title>Access Anaplan</title></h1>
         <!--<button id="clickIt" a href="https://www.google.com">Anaplan Models</button>-->
 
+        <!-- Account -->
+        <div class="split left">
+          <div class="centered">
+          <a href="https://us1a.app.anaplan.com/launchpad/nonpublic/ViewMyProfile.action" target="_blank"><img border="0" alt="My Account" src="profile.png" width="50" height="50" title="View your account"></a>
+            <h3>My Account</h3>
+          </div>
+        </div>
+
+        <!-- Models -->
         <div class="split middle">
-  	<div class="centered">
-    <img src="models.jpeg" alt="Avatar woman">
-    <h2>My Models</h2>
-    <!--<p>PQR</p>-->
+  	       <div class="centered">
+             <a href="https://us1a.app.anaplan.com/launchpad/nonpublic/tiles/ModelSelect.action" target="_blank"><img border="0" alt="My Models" src="models.png" width="60" height="50" title="Manage your models"></a>
+             <h3>My Models</h3>
+           </div>
+         </div>
+
+
+         <!-- App Hub -->
+         <div class="split right">
+           <div class="centered">
+           <a href="https://community.anaplan.com/t5/App-Hub/ct-p/APPHUB" target="_blank"><img border="0" alt="App Hub" src="hub.jpg" width="50" height="50" title="View per-built models"></a>
+             <h3>App Hub</h3>
+           </div>
+         </div>
+
+
+         <!-- Community -->
+         <div class="split top">
+           <div class="centered">
+           <a href="https://community.anaplan.com/" target="_blank"><img border="0" alt="Community" src="commun.png" width="50" height="50" title="Know more about Anaplan"></a>
+             <h3>Anaplan Community</h3>
+           </div>
+         </div>
+
+
+         <!-- Anapedia -->
+         <div class="split bottommiddle">
+           <div class="centered">
+           <a href="https://help.anaplan.com/anapedia/Content/Home.htm" target="_blank"><img border="0" alt="Anapedia" src="models.jpeg" width="50" height="55" title="Anaplan Technical Documentation"></a>
+             <h3>Anaplan Anapedia</h3>
+           </div>
+         </div>
+
+         <!-- Contact Support -->
+         <div class="split bottom">
+           <div class="centered">
+           <a href="mailto:support@anaplan.com" target="_blank"><img border="0" alt="Anapedia" src="support.png" width="50" height="50" title="Have questions?"></a>
+             <h3>Contact Support</h3>
+           </div>
+         </div>
+
+         <!--<div class="split bottommiddle">
+  <div class="centered">
+    <img src="commun.png" alt="Avatar man">
+    <h2>John Doe</h2>
+    <p>Some text here too.</p>
   </div>
-</div>
+</div>-->
+
+
+<!--
 
         <div class="split left">
           <div class="centered">
-            <img src="account.png" alt="Avatar woman">
+            <img src="profile.png" alt="Avatar woman">
             <h2>My Account</h2>
-            <!--<p>Some text.</p>-->
+
           </div>
         </div>
 
@@ -97,20 +153,22 @@
           <div class="centered">
             <img src="icon.png" alt="Avatar man">
             <h2>Bhavik</h2>
-            <!--<p>Some text here too.</p>-->
+
           </div>
-        </div>
+        </div>-->
 
 
 
 
-         <a href="https://us1a.app.anaplan.com/launchpad/nonpublic/ViewMyProfile.action" target="_blank"><button id="clickIt" title="Navigate to your account">My Account</button></a>
+         <!--<a href="https://us1a.app.anaplan.com/launchpad/nonpublic/ViewMyProfile.action" target="_blank"><button id="clickIt" title="Navigate to your account">My Account</button></a>
          <a href="https://us1a.app.anaplan.com/launchpad/nonpublic/tiles/ModelSelect.action" target="_blank"><button title="Your Models">My Models</button></a>
-         <a href="https://community.anaplan.com/" target="_blank"><button title="Know more about Anaplan">Community</button></a>
+       <a href="https://community.anaplan.com/" target="_blank"><button title="Know more about Anaplan">Community</button></a>
          <a href="https://help.anaplan.com/anapedia/Content/Home.htm" target="_blank"><button title="Modeling Q&A?">Anapedia</button></a>
          <a href="mailto:support@anaplan.com" target="_blank"><button title="Have questions?">Contact Support</button></a>
-
-
+<! App hub - https://community.anaplan.com/t5/App-Hub/ct-p/APPHUB -->
+<!-- App hub - https://us1a.app.anaplan.com/administration/users -->
+<!-- Anaplan Status Page - https://us1a.app.anaplan.com/administration/users -->
+<!-- Learn Anaplan, Anaplan training -->
 
     </body>
     <script src="popup.js"></script>
